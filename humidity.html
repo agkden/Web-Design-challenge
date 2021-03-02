@@ -16,6 +16,87 @@
   </head>
 
   <body>
+    <!-- Insert Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- add navbar content here -->
+        <a class="navbar-brand" href="#">WeatherPy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Data</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Comparisons</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Max Temperature</a>
+                <a class="dropdown-item" href="#">Humidity</a>
+                <a class="dropdown-item" href="#">Cloudiness</a>
+                <a class="dropdown-item" href="#">Wind Speed</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <!-- Insert Containers to place plots -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h3>Humidity</h3>
+          <!-- insert horizontal line -->
+          <hr>
+
+          <!-- insert 1 big pic -->
+          <img src="" alt="image">
+
+          <!-- insert description text -->
+          <p>text</p>
+        </div>
+
+        <div class="col-md-4">
+          <h4>Visualizations</h4>
+          <!-- insert horizontal line -->
+          <hr>
+
+          <!-- insert 2x2 small pics -->
+          <div class="row">
+            <div class="col-md-6">
+              <!-- insert pic 1R-1/2 -->
+              <img src="" alt="fig1">
+            </div>
+
+            <div class="col-md-6">
+              <!-- insert pic 1R-2/2 -->
+              <img src="" alt="fig2">
+            </div>
+          </div>  <!--close row-->
+
+          <div class="row">
+            <div class="col-md-6">
+              <!-- insert pic 2R-1/2 -->
+              <img src="" alt="fig3">
+            </div>
+
+            <div class="col-md-6">
+              <!-- insert pic 2R-2/2 -->
+              <img src="" alt="fig4">
+            </div>
+          </div>  <!--close row-->
+
+        </div>
+      </div>
+    </div>
 
 
 

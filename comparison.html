@@ -16,6 +16,80 @@
   </head>
 
   <body>
+    <!-- Insert Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- add navbar content here -->
+        <a class="navbar-brand" href="#">WeatherPy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <!-- Links -->
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Data</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Comparisons</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Max Temperature</a>
+                <a class="dropdown-item" href="#">Humidity</a>
+                <a class="dropdown-item" href="#">Cloudiness</a>
+                <a class="dropdown-item" href="#">Wind Speed</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <!-- Insert Containers to place plots -->
+    <div class="container">
+      <h3>Comparison: Latitude vs X</h3>
+      <!-- insert horizontal line -->
+      <hr>
+      <!-- insert small text -->
+      <p>Click any plot to get an in-depth analysis</p>
+
+      <!-- create grid 2x2 -->
+      <div class="row">      
+        <div class="col-md-6">
+          <h5>vs. Max Temperature</h5>
+          <!-- insert picture 1 -->
+          <img src="" alt="fig1">
+          
+        </div>
+      
+        <div class="col-md-6">
+          <h5>vs. Humidity</h5>
+          <!-- insert picture 2 -->
+          <img src="" alt="fig2">
+        </div>
+      </div>  <!-- close row-->    
+
+      <div class="row">
+        <div class="col-md-6">
+          <h5>vs. Cloudiness</h5>
+          <!-- insert picture 3 -->
+          <img src="" alt="fig3">
+        </div>
+
+        <div class="col-md-6">
+          <h5>vs. Wind Speed</h5>
+          <!-- inser picture 4 -->
+          <img src="" alt="fig4">
+        </div>
+      </div>   <!--close row-->
+    </div>     <!-- close container-->
+  
+
+    
 
 
 
