@@ -12,3 +12,14 @@
   padding-top: 8.5px;
 }
 
+/* add style to the Data table */
+table {
+  margin-top: 20px;
+    
+}
+
+td, th {
+  padding: 10px;
+  text-align: center;
+}
+
