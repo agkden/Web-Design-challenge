@@ -2,6 +2,12 @@
   margin-bottom: 20px;
 }
 
+.img-in-text {
+  float: left;
+  margin: 7px 7px 7px 0;
+  width: 350px;
+}
+
 .vis-sum {
   padding-top: 8.5px;
 }
