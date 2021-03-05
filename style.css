@@ -2,6 +2,12 @@
   margin-bottom: 20px;
 }
 
+p {
+  text-align: justify;
+  padding-top: 10px;
+  text-indent: 20px;
+}
+
 .img-in-text {
   float: left;
   margin: 7px 7px 7px 0;
@@ -15,7 +21,7 @@
 /* add style to the Data table */
 table {
   margin-top: 20px;
-    
+  margin-bottom: 50px;    
 }
 
 td, th {
