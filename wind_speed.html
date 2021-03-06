@@ -17,7 +17,7 @@
 
   <body>
     <!-- Insert Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
       <!-- add navbar content here -->
         <a class="navbar-brand" href="index.html">WeatherPy</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,57 +46,63 @@
         </div>
     </nav>
     
-
-    <!-- Insert Containers to place plots -->
     <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <h3>Wind Speed</h3>
-          <!-- insert horizontal line -->
-          <hr>
+      <div class="card border-0 shadow my-5">
+        <div class="card-body p-5">
+          <!-- Insert Containers to place plots -->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8">
+                <h3>Wind Speed</h3>
+                <!-- insert horizontal line -->
+                <hr>
 
-          <!-- insert 1 big pic -->
-          <img src="assets/images/WindLat.png" class="img-fluid" alt="Latitude vs Wind Speed" title="Latitude vs Wind Speed">
+                <!-- insert 1 big pic -->
+                <img src="assets/images/WindLat.png" class="img-fluid" alt="Latitude vs Wind Speed" title="Latitude vs Wind Speed">
 
-          <!-- insert description text -->
-          <p>There is no correlation between latitude and wind speed. Looking at the plot, we can see trend that the majority of cities located in zone where the wind speed is not more then 10 mph regardless of latitude.</p>
-        </div>
+                <!-- insert description text -->
+                <p>There is no correlation between latitude and wind speed. Looking at the plot, we can see trend that the majority of cities located in zone where the wind speed is not more then 10 mph regardless of latitude.</p>
+              </div>
 
-        <!-- Visualization part -->
-        <div class="col-md-4">
-          <div class="vis-sum">
-            <h5>Visualizations</h5>
+              <!-- Visualization part -->
+              <div class="col-md-4">
+                <div class="vis-sum">
+                  <h5>Visualizations</h5>
+                </div>
+                <!-- insert horizontal line -->
+                <hr>
+
+                <!-- insert 2x2 small pics -->
+                <div class="row mt-5">
+                  <div class="col-4 col-md-6">
+                    <!-- insert pic 1R-1/2 -->
+                    <a href="max_temp.html"><img src="assets/images/MaxTempLat.png" class="img-fluid img-thumbnail" alt="Latitude vs Temperature" title="Latitude vs Temperature"></a>
+                  </div>
+
+                  <div class="col-4 col-md-6">
+                    <!-- insert pic 1R-2/2 -->
+                    <a href="humidity.html"><img src="assets/images/HumidLat.png" class="img-fluid img-thumbnail" alt="Latitude vs Humidity" title="Latitude vs Humidity"></a>
+                  </div>
+                </div>
+
+                <div class="row mt-5">
+                  <div class="col-4 col-md-6">
+                    <!-- insert pic 2R-1/2 -->
+                    <a href="cloudiness.html"><img src="assets/images/CloudsLat.png" class="img-fluid img-thumbnail" alt="Latitude vs Cloudiness" title="Latitude vs Cloudiness"></a>
+                  </div>
+
+                  <div class="col-4 col-md-6">
+                    <!-- insert pic 2R-2/2 -->
+                    <a href="wind_speed.html"><img src="assets/images/WindLat.png" class="img-fluid img-thumbnail" alt="Latitude vs Wind Speed" title="Latitude vs Wind Speed"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          <!-- insert horizontal line -->
-          <hr>
-
-          <!-- insert 2x2 small pics -->
-          <div class="row mt-5">
-            <div class="col-4 col-md-6">
-              <!-- insert pic 1R-1/2 -->
-              <a href="max_temp.html"><img src="assets/images/MaxTempLat.png" class="img-fluid img-thumbnail" alt="Latitude vs Temperature" title="Latitude vs Temperature"></a>
-            </div>
-
-            <div class="col-4 col-md-6">
-              <!-- insert pic 1R-2/2 -->
-              <a href="humidity.html"><img src="assets/images/HumidLat.png" class="img-fluid img-thumbnail" alt="Latitude vs Humidity" title="Latitude vs Humidity"></a>
-            </div>
-          </div>  <!--close row-->
-
-          <div class="row mt-5">
-            <div class="col-4 col-md-6">
-              <!-- insert pic 2R-1/2 -->
-              <a href="cloudiness.html"><img src="assets/images/CloudsLat.png" class="img-fluid img-thumbnail" alt="Latitude vs Cloudiness" title="Latitude vs Cloudiness"></a>
-            </div>
-
-            <div class="col-4 col-md-6">
-              <!-- insert pic 2R-2/2 -->
-              <a href="wind_speed.html"><img src="assets/images/WindLat.png" class="img-fluid img-thumbnail" alt="Latitude vs Wind Speed" title="Latitude vs Wind Speed"></a>
-            </div>
-          </div>  <!--close row-->
         </div>
       </div>
     </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

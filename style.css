@@ -1,9 +1,32 @@
-.navbar {
-  margin-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
+/* set a background image */
+body {
+  background: url('assets/images/bg-img-unsplash.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
+/* change the color of active or hovered links */
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item:focus .nav-link,
+.navbar-dark .nav-item:hover .nav-link {
+  color:white;
+  background:cornflowerblue;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* change color of headings */
+h3, h5 {
+  color:rgb(28,100,149);
+} 
+
+/* add style to text */
 p {
   text-align: justify;
   padding-top: 10px;

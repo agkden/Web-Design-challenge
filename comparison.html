@@ -17,7 +17,7 @@
 
   <body>
     <!-- Insert Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
       <!-- add navbar content here -->
         <a class="navbar-brand" href="index.html">WeatherPy</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,46 +46,49 @@
         </div>
     </nav>
     
-    
-    <!-- Insert Containers to place plots -->
     <div class="container">
-      <h3>Comparison: Latitude vs X</h3>
-      <!-- insert horizontal line -->
-      <hr>
-      <!-- insert small text -->
-      <p>Click any plot to get an in-depth analysis</p>
+      <div class="card border-0 shadow my-5">
+        <div class="card-body p-5">
+          <!-- Insert Containers to place plots -->
+          <div class="container">
+            <h3>Comparison: Latitude vs X</h3>
+            <!-- insert horizontal line -->
+            <hr>
+            <!-- insert small text -->
+            <p>Click any plot to get an in-depth analysis</p>
 
-      <!-- create grid 2x2 -->
-      <div class="row pt-3">
-        <div class="col-md-6 text-center">
-          <h5>vs. Max Temperature</h5>
-          <!-- insert picture 1 -->
-          <a href="max_temp.html"><img src="assets/images/MaxTempLat.png" class="img-fluid" alt="Latitude vs Temperature" title="Latitude vs Temperature"></a>          
-        </div>
-      
-        <div class="col-md-6 text-center">
-          <h5>vs. Humidity</h5>
-          <!-- insert picture 2 -->
-          <a href="humidity.html"><img src="assets/images/HumidLat.png" class="img-fluid" alt="Latitude vs Humidity" title="Latitude vs Humidity"></a>
-        </div>
-      </div>  <!-- close row-->    
+            <!-- create grid 2x2 -->
+            <div class="row pt-3">
+              <div class="col-md-6 text-center">
+                <h5>vs. Max Temperature</h5>
+                <!-- insert picture 1 -->
+                <a href="max_temp.html"><img src="assets/images/MaxTempLat.png" class="img-fluid" alt="Latitude vs Temperature" title="Latitude vs Temperature"></a>          
+              </div>
+            
+              <div class="col-md-6 text-center">
+                <h5>vs. Humidity</h5>
+                <!-- insert picture 2 -->
+                <a href="humidity.html"><img src="assets/images/HumidLat.png" class="img-fluid" alt="Latitude vs Humidity" title="Latitude vs Humidity"></a>
+              </div>
+            </div>      
 
-      <div class="row pt-3 pb-3">
-        <div class="col-md-6 text-center">
-          <h5>vs. Cloudiness</h5>
-          <!-- insert picture 3 -->
-          <a href="cloudiness.html"><img src="assets/images/CloudsLat.png" class="img-fluid" alt="Latitude vs Cloudiness" title="Latitude vs Cloudiness"></a>
-        </div>
+            <div class="row pt-3 pb-3">
+              <div class="col-md-6 text-center">
+                <h5>vs. Cloudiness</h5>
+                <!-- insert picture 3 -->
+                <a href="cloudiness.html"><img src="assets/images/CloudsLat.png" class="img-fluid" alt="Latitude vs Cloudiness" title="Latitude vs Cloudiness"></a>
+              </div>
 
-        <div class="col-md-6 text-center">
-          <h5>vs. Wind Speed</h5>
-          <!-- inser picture 4 -->
-          <a href="wind_speed.html"><img src="assets/images/WindLat.png" class="img-fluid" alt="Latitude vs Wind Speed" title="Latitude vs Wind Speed"></a>
+              <div class="col-md-6 text-center">
+                <h5>vs. Wind Speed</h5>
+                <!-- inser picture 4 -->
+                <a href="wind_speed.html"><img src="assets/images/WindLat.png" class="img-fluid" alt="Latitude vs Wind Speed" title="Latitude vs Wind Speed"></a>
+              </div>
+            </div> 
+          </div> 
         </div>
-      </div>   <!--close row-->
-    </div>     <!-- close container-->
-  
-
+      </div> 
+    </div>
     
 
     <!-- Optional JavaScript -->
