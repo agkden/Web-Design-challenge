@@ -16,6 +16,11 @@ p {
   width: 350px;
 }
 
+/* add hover style over picture preview */
+a:hover img {
+  border: 1px solid;
+}
+
 .vis-sum {
   padding-top: 8.5px;
 }
